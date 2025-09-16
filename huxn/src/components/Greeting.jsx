@@ -1,12 +1,17 @@
 import React from 'react'
 
-const Name = "Yashraj";
+
 const Greeting = () => {
-  return (
-    <div>
-        <h1>Good morning {Name}</h1>
-    </div>
-  )
+  let Timeofday = "afternoon"
+  if(Timeofday == "morning"){
+    return <h2>Good Morning</h2>
+  }
+  else if(Timeofday == "afternoon"){
+    return <h2>Good Afternoon</h2>
+  }
+  else{
+    return <h2>Invalid input</h2>
+  }
 }
 
 export default Greeting;
