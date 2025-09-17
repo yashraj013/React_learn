@@ -8,13 +8,16 @@ import ProductionInfo from "./components/ProductionInfo";
 import Properties from "./components/Properties";
 import Product from "./components/Product";
 import Weather from "./components/Weather";
+import StyleCard from "./components/StyleCard";
+import ProfileCard from "./components/ProfileCard";
+import Icon from "./components/Icon";
 
 const App = () => {
   return <div>
     {/* WE CAN RENDER ANY OF THE COMPONENT HERE */}
-      
-      <Weather/>
-      <Greeting/>
+      <StyleCard/>
+      <ProfileCard/>
+      <Icon/>
   </div>
 };
 
